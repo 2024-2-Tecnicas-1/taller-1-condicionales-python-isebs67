@@ -1,5 +1,5 @@
 def evaluar(caracter):
-    # TODO: Coloca aquí el código del ejercicio 4: Letra o número
+    # TODO: Coloca aquí el código del ejerciicio 4: Letra o número
       if caracter.isdigit():
         return "Es número"
     elif caracter.isalpha():
