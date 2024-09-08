@@ -2,7 +2,7 @@ def evaluar(dia, mes, anno):
     # TODO: Coloca aquí el código del ejercicio 6: Edad
     hoy = date.today()
     edad = hoy.year - anno
-    if (hoy, hoy) < (mes, dia):
+    if (hoy.year, hoy.mes) < (mes, dia):
         edad -= 1
     return f"Usted tiene {edad} años"
 
