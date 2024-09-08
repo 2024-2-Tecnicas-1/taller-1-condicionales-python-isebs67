@@ -1,5 +1,5 @@
 def evaluar(a, b, c):
-    # TODO: Coloca aquí el código del ejercicio 1: Set de tenis
+    #triangulo
       if a + b <= c or a + c <= b or b + c <= a:
         return "No es un triángulo válido"
     elif a == b == c:
