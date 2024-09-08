@@ -1,6 +1,10 @@
 def evaluar(dia, mes, anno):
     # TODO: Coloca aquí el código del ejercicio 6: Edad
-    return "";
+    hoy = date.today()
+    edad = hoy.year - anno
+    if (hoy, hoy) < (mes, dia):
+        edad -= 1
+    return f"Usted tiene {edad} años"
 
 if __name__ == '__main__':
     print("Ingrese su fecha de nacimiento")

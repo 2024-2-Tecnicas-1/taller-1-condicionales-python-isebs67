@@ -1,6 +1,13 @@
 def evaluar(num_victorias_a, num_victorias_b):
     # TODO: Coloca aquí el código del ejercicio 1: Set de tenis
-    return ""
+    if (num_victorias_a >= 6 and num_victorias_a - num_victorias_b >= 2) or (num_victorias_a == 7 and num_victorias_b == 6):
+        return "Ganó A"
+    elif (num_victorias_b >= 6 and num_victorias_b - num_victorias_a >= 2) or (num_victorias_b == 7 and num_victorias_a == 6):
+        return "Ganó B"
+    elif num_victorias_a <= 6 and num_victorias_b <= 6:
+        return "Aún no termina"
+    else:
+        return "Inválido"
 
 if __name__ == '__main__':
     print("Los juegos ganaddor por A:", end="")
