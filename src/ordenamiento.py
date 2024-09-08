@@ -1,5 +1,5 @@
 def evaluar(numero1, numero2, numero3, numero4):
-    # TODO: Coloca aquí el código del ejercicio 5: Ordenamiento
+    # TODO: Coloca aquí el código del ejeercicio 5: Ordenamiento
    for i in range(4):
         num = int(input(f"Ingrese numero {i+1}: "))
         numeros.append(num)
